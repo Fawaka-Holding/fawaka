@@ -20,7 +20,7 @@
     "crypto": "^1.0.1",
     "geoip-lite": "^1.4.0",
     "ipfs-http-client": "^56.0.0",
-    "secrets.js-grempe": "^1.2.7",
+    "secrets.js-grempe": "^1.1.0",
     "child_process": "^1.0.2",
      "tangem-sdk": "git+https://github.com/Tangem/tangem-sdk-js.git",
     "winston": "^3.8.0",
