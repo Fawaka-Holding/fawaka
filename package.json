@@ -28,7 +28,6 @@
     "ethers": "^6.0.0",
     "http-proxy-middleware": "^3.0.0",
     "os": "^0.1.2",
-    "perf_hooks": "^1.0.1",
     "snyk": "^1.1221.0",
     "dotenv": "^16.0.3",
     "morgan": "^1.10.0",
