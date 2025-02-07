@@ -9,6 +9,8 @@ const logger = require("./utils/logger");
 const tradeRoutes = require("./routes/trade");
 const userRoutes = require("./routes/user");
 const stakingRoutes = require("./routes/staking");
+const documentRoutes = require("./routes/documents");
+app.use("/api/documents", documentRoutes);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
