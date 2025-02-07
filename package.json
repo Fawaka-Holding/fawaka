@@ -34,6 +34,11 @@
     "pm2": "^5.2.0",
     "trezor-connect": "^8.1.4"
   },
+  "dependencies": {
+  "@ledgerhq/hw-transport": "^6.30.0",
+  "@ledgerhq/hw-transport-node": "^6.30.0",
+  "@ledgerhq/hw-app-xrp": "^6.30.0"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
