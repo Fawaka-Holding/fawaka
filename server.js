@@ -49,6 +49,7 @@ const featureSettings = {
   trezorEnabled: false, // Toggle for enabling/disabling Trezor Wallet Support
   ledgerEnabled: false, // Toggle for enabling/disabling Ledger Wallet Support
 };
+app.use("/api/admin", require("./routes/admin"));
 
 // API endpoint to toggle DEX access
 app.post('/api/admin/toggle-dex-access', (req, res) => {
