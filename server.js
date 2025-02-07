@@ -46,6 +46,8 @@ const featureSettings = {
   tokenListingEnabled: false,
   giftCardEnabled: false,
   dexAccessEnabled: false, // Toggle for enabling/disabling the "Go to DEX" button
+  trezorEnabled: false, // Toggle for enabling/disabling Trezor Wallet Support
+  ledgerEnabled: false, // Toggle for enabling/disabling Ledger Wallet Support
 };
 
 // API endpoint to toggle DEX access
